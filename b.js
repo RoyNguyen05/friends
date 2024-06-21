@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 const confirmation = document.querySelector("#confirmation"); // Lấy phần tử h3 cần ẩn
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Anhhh đúng là đồ tòyy🥹<br>Dỗiiiiiiiiii"; // Sử dụng thẻ <br> để thêm dòng mới
+  question.innerHTML = "Buồn em rồiiii<br>Dỗiiiiiiiiii x3.14159265"; // Sử dụng thẻ <br> để thêm dòng mới
   gif.src = "https://media.giphy.com/media/LfTu28H05pKCbyCMkt/giphy.gif";
   confirmation.style.display = "none"; // Ẩn phần tử h3 khi nhấn vào nút "Đúng rồi"
 });
